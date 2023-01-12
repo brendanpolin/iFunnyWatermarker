@@ -1,13 +1,13 @@
-import javax.swing.text.html.ImageView;
 import java.io.File;
 import java.io.IOException;
 import java.util.ArrayList;
+import java.util.Arrays;
 
 public class Main {
     public static void main(String[] args) throws IOException {
-        System.out.println("fileName");
-        File mainDirectory = new File("C:\\");
-        for (String fileName : getAllImages(mainDirectory, true))
+        final File dir = new File("C:\\");
+        System.out.println(Arrays.toString(dir.listFiles()));
+        for (String fileName : getAllImages(dir, true))
         {
             System.out.println(fileName);
         }
@@ -15,6 +15,10 @@ public class Main {
     public static ArrayList<String> getAllImages(File directory, boolean descendIntoSubDirectories) throws IOException {
         ArrayList<String> resultList = new ArrayList<String>(256);
         File[] f = directory.listFiles();
+        if(f == null){
+            System.out.println(directory.getName() + " is empty");
+            return null;
+        }
         for (File file : f) {
             if (file != null && file.getName().toLowerCase().endsWith(".jpg") && !file.getName().startsWith("tn_")) {
                 resultList.add(file.getCanonicalPath());

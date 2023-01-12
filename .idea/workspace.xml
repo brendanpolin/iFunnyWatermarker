@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="570c02bb-5ac8-4503-af70-1290d279a344" name="Changes" comment="Started Project">
+    <list default="true" id="570c02bb-5ac8-4503-af70-1290d279a344" name="Changes" comment="Half way there, but it's broken though the idea of the program should be beginning to shine through">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
@@ -16,8 +16,21 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN"
+  }
+}]]></component>
   <component name="GithubDefaultAccount">
     <option name="defaultAccountId" value="501499fe-fe7a-4438-910e-e32af3105468" />
+  </component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="501499fe-fe7a-4438-910e-e32af3105468" />
+        <option name="url" value="https://github.com/brendanpolin/iFunnyWatermarker" />
+      </UrlAndAccount>
+    </option>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -66,7 +79,7 @@
       <option name="presentableId" value="Default" />
       <updated>1673537351843</updated>
       <workItem from="1673537353362" duration="362000" />
-      <workItem from="1673537779593" duration="1536000" />
+      <workItem from="1673537779593" duration="3197000" />
     </task>
     <task id="LOCAL-00001" summary="Started Project">
       <created>1673538034402</created>
@@ -75,7 +88,14 @@
       <option name="project" value="LOCAL" />
       <updated>1673538034402</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Half way there, but it's broken though the idea of the program should be beginning to shine through">
+      <created>1673539433706</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1673539433706</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -83,15 +103,25 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Started Project" />
-    <option name="LAST_COMMIT_MESSAGE" value="Started Project" />
+    <MESSAGE value="Half way there, but it's broken though the idea of the program should be beginning to shine through" />
+    <option name="LAST_COMMIT_MESSAGE" value="Half way there, but it's broken though the idea of the program should be beginning to shine through" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.NullPointerException" package="java.lang" />
+          <option name="timeStamp" value="4" />
+        </breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/Main.java</url>
           <line>7</line>
-          <option name="timeStamp" value="3" />
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Main.java</url>
+          <line>18</line>
+          <option name="timeStamp" value="7" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="570c02bb-5ac8-4503-af70-1290d279a344" name="Changes" comment="Half way there, but it's broken though the idea of the program should be beginning to shine through">
+    <list default="true" id="570c02bb-5ac8-4503-af70-1290d279a344" name="Changes" comment="The code works now! It just gets every .jpg picture on your Windows computer though, plans to add more extensions and detect if you are on unix in the future. The next thing to do is start actually adding the iFunny watermark to every image on the computer, though I will have to set up a test bench for this one because I don't want all my .jpgs to be corrupted lol.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
@@ -16,11 +16,11 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;
   }
-}]]></component>
+}</component>
   <component name="GithubDefaultAccount">
     <option name="defaultAccountId" value="501499fe-fe7a-4438-910e-e32af3105468" />
   </component>
@@ -79,7 +79,8 @@
       <option name="presentableId" value="Default" />
       <updated>1673537351843</updated>
       <workItem from="1673537353362" duration="362000" />
-      <workItem from="1673537779593" duration="3197000" />
+      <workItem from="1673537779593" duration="4115000" />
+      <workItem from="1673544645408" duration="2000000" />
     </task>
     <task id="LOCAL-00001" summary="Started Project">
       <created>1673538034402</created>
@@ -95,7 +96,14 @@
       <option name="project" value="LOCAL" />
       <updated>1673539433706</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="The code works now! It just gets every .jpg picture on your Windows computer though, plans to add more extensions and detect if you are on unix in the future. The next thing to do is start actually adding the iFunny watermark to every image on the computer, though I will have to set up a test bench for this one because I don't want all my .jpgs to be corrupted lol.">
+      <created>1673541320726</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1673541320726</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -104,7 +112,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Started Project" />
     <MESSAGE value="Half way there, but it's broken though the idea of the program should be beginning to shine through" />
-    <option name="LAST_COMMIT_MESSAGE" value="Half way there, but it's broken though the idea of the program should be beginning to shine through" />
+    <MESSAGE value="The code works now! It just gets every .jpg picture on your Windows computer though, plans to add more extensions and detect if you are on unix in the future. The next thing to do is start actually adding the iFunny watermark to every image on the computer, though I will have to set up a test bench for this one because I don't want all my .jpgs to be corrupted lol." />
+    <option name="LAST_COMMIT_MESSAGE" value="The code works now! It just gets every .jpg picture on your Windows computer though, plans to add more extensions and detect if you are on unix in the future. The next thing to do is start actually adding the iFunny watermark to every image on the computer, though I will have to set up a test bench for this one because I don't want all my .jpgs to be corrupted lol." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -113,16 +122,6 @@
           <properties class="java.lang.NullPointerException" package="java.lang" />
           <option name="timeStamp" value="4" />
         </breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Main.java</url>
-          <line>7</line>
-          <option name="timeStamp" value="6" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Main.java</url>
-          <line>18</line>
-          <option name="timeStamp" value="7" />
-        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
